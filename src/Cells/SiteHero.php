@@ -17,5 +17,5 @@ class SiteHero extends SettingsCell
     
     public $background_image_path = null;
 
-    public $assetsPath = 'assets/site-scrolling-nav';
+    public $assetsPath = 'assets/sb-scrolling-nav';
 }

@@ -27,7 +27,7 @@ class SiteLayout extends Cell
 
     public $baseUrl;
 
-    public $assetsPath = 'assets/site-scrolling-nav';
+    public $assetsPath = 'assets/sb-scrolling-nav';
 
     public $name;
 
