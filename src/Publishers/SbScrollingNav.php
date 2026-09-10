@@ -7,7 +7,7 @@ namespace BasicApp\SbScrollingNav\Publishers;
 
 use BasicApp\Core\Publisher;
 
-class SiteLandingSb extends Publisher
+class SbScrollingNav extends Publisher
 {
     /**
      * Tell Publisher where to create destination directory.
@@ -30,7 +30,7 @@ class SiteLandingSb extends Publisher
      *
      * @var string
      */
-    protected $destination = FCPATH . 'assets/site-landing-sb';
+    protected $destination = FCPATH . 'assets/sb-scrolling-nav';
 
     /**
      * Use the "publish" method to indicate that this
