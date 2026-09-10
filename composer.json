@@ -1,0 +1,9 @@
+{
+    "name": "basic-app/sb-scrolling-nav",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BasicApp\\SbScrollingNav\\": "src/"
+        }
+    }
+}
