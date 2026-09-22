@@ -5,9 +5,9 @@
  */
 namespace BasicApp\SbScrollingNav\Cells;
 
-use BasicApp\Core\SettingsCell;
+use BasicApp\Core\Cell;
 
-class SitePage extends SettingsCell
+class SitePage extends Cell
 {
     protected string $view = __DIR__ . '/../../cells/site-page.php';
 
@@ -15,5 +15,5 @@ class SitePage extends SettingsCell
     
     public $content_html;
 
-    public array $attributes = [];
+    public ?array $attributes = [];
 }

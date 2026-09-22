@@ -35,7 +35,7 @@ class SiteLayout extends Cell
 
     public $activeMenu;
 
-    public array $menu = [];
+    public ?array $menu = [];
 
     public function mount()
     {
