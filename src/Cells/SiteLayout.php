@@ -5,7 +5,7 @@
  */
 namespace BasicApp\SbScrollingNav\Cells;
 
-use BasicApp\Settings\Cell;
+use BasicApp\Core\Cell;
 
 class SiteLayout extends Cell
 {
