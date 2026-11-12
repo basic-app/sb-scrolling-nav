@@ -5,7 +5,7 @@
  */
 namespace BasicApp\SbScrollingNav\Cells;
 
-use BasicApp\Core\SettingsCell;
+use BasicApp\Settings\SettingsCell;
 
 class SiteHero extends SettingsCell
 {

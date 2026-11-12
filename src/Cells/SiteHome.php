@@ -5,7 +5,7 @@
  */
 namespace BasicApp\SbScrollingNav\Cells;
 
-use BasicApp\Core\Cell;
+use BasicApp\Settings\Cell;
 
 class SiteHome extends Cell
 {
