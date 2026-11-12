@@ -6,7 +6,7 @@
             "BasicApp\\SbScrollingNav\\": "src"
         }
     },
-    "require" : {
-        "basic-app/publisher" : "*"
+    "require": {
+        "basic-app/publisher": "*"
     }
 }
