@@ -5,7 +5,7 @@
  */
 namespace BasicApp\SbScrollingNav\Publishers;
 
-use BasicApp\Core\Publisher;
+use BasicApp\Publisher\Publisher;
 
 class SbScrollingNav extends Publisher
 {
@@ -38,8 +38,8 @@ class SbScrollingNav extends Publisher
      */
     public function publish(): bool
     {
-        $this->deleteFiles($this->destination);
-
-        return parent::publish();
+        return $this->wipe()
+            ->addPath('/')
+            ->merge(true);
     }
 }

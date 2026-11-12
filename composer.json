@@ -3,7 +3,10 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "BasicApp\\SbScrollingNav\\": "src/"
+            "BasicApp\\SbScrollingNav\\": "src"
         }
+    },
+    "require" : {
+        "basic-app/publisher" : "*"
     }
 }
