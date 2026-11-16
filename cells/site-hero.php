@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 $backgroundUrl = base_url($background_image_path ?? $assetsPath . '/images/home-bg.jpg');
 
