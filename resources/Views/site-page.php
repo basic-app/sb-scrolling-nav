@@ -1,7 +1,12 @@
 <?php
+
 declare(strict_types=1);
+
+/** @var ?string $title */
+/** @var ?string $content_html */
+/** @var array $attributes */
+
 ?>
-<!-- Services section-->
 <section<?= stringify_attributes($attributes);?>>
     <div class="container px-4">
         <div class="row gx-4 justify-content-center">

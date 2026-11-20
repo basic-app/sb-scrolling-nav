@@ -14,9 +14,9 @@ class SitePage extends Cell
 {
     protected string $view = __DIR__ . '/../../resources/Views/site-page.php';
 
-    public $title;
+    public ?string $title = null;
 
-    public $content_html;
+    public ?string $content_html = null;
 
-    public ?array $attributes = [];
+    public array $attributes = [];
 }

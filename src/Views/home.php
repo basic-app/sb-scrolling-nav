@@ -1,9 +1,12 @@
 <?php
+
 declare(strict_types=1);
+
 /**
  * @author Basic App Dev Team
  * @license MIT
  */
+
 use BasicApp\Block\Models\Blocks;
 
 echo view_cell('SiteHero');

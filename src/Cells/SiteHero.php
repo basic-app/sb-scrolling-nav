@@ -14,11 +14,9 @@ class SiteHero extends SettingsCell
 {
     protected string $view = __DIR__ . '/../../resources/Views/site-hero.php';
 
-    public $title;
+    public ?string $title = null;
 
-    public $description;
+    public ?string $description = null;
 
-    public $background_image_path = null;
-
-    public $assetsPath = 'assets/sb-scrolling-nav';
+    public ?string $background_image_path = null;
 }

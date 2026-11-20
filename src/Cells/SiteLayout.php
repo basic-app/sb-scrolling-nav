@@ -14,29 +14,27 @@ class SiteLayout extends Cell
 {
     protected string $view = __DIR__ . '/../../resources/Views/site-layout.php';
 
-    public $lang;
+    public ?string $baseUrl = null;
 
-    public $content;
+    public ?string $lang = null;
 
-    public $title;
+    public ?string $content = null;
 
-    public $keywords;
+    public ?string $title = null;
 
-    public $description;
+    public ?string $keywords = null;
 
-    public $scripts;
+    public ?string $description = null;
 
-    public $styles;
+    public ?string $scripts = null;
 
-    public $baseUrl;
+    public ?string $styles = null;
 
-    public $assetsPath = 'assets/sb-scrolling-nav';
+    public ?string $name = null;
 
-    public $name;
+    public ?string $copyright = null;
 
-    public $copyright;
-
-    public $activeMenu;
+    public ?string $activeMenu = null;
 
     public ?array $menu = [];
 

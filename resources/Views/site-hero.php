@@ -1,7 +1,12 @@
 <?php
+
 declare(strict_types=1);
 
-$backgroundUrl = base_url($background_image_path ?? $assetsPath . '/images/home-bg.jpg');
+/** @var ?string $title */
+/** @var ?string $description */
+/** @var ?string $background_image_path */
+
+$backgroundUrl = base_url($background_image_path ?? 'assets/sb-scrolling-nav/images/home-bg.jpg');
 
 ?>
 <!-- Header-->

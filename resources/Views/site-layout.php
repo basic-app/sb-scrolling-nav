@@ -2,6 +2,19 @@
 
 declare(strict_types=1);
 
+/** @var ?string $baseUrl */
+/** @var ?string $lang */
+/** @var ?string $content */
+/** @var ?string $title */
+/** @var ?string $keywords */
+/** @var ?string $description */
+/** @var ?string $scripts */
+/** @var ?string $styles */
+/** @var ?string $name */
+/** @var ?string $copyright */
+/** @var ?string $activeMenu */
+/** @var ?array $menu */
+
 ?><!DOCTYPE html>
 <html lang="<?= $lang;?>">
     <head>
@@ -10,9 +23,9 @@ declare(strict_types=1);
         <title><?= $title;?></title>
         <meta name="keywords" content="<?= esc($keywords);?>" />
         <meta name="description" content="<?= esc($description);?>" />
-        <link rel="icon" type="image/x-icon" href="<?= base_url($assetsPath . '/assets/favicon.ico');?>" />
+        <link rel="icon" type="image/x-icon" href="<?= base_url('assets/sb-scrolling-nav/assets/favicon.ico');?>" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="<?= base_url($assetsPath . '/css/styles.css');?>" rel="stylesheet" />
+        <link href="<?= base_url('assets/sb-scrolling-nav/css/styles.css');?>" rel="stylesheet" />
         <?= $styles;?>
     </head>
     <body id="page-top">
@@ -46,7 +59,7 @@ declare(strict_types=1);
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="<?= base_url($assetsPath . '/js/scripts.js');?>"></script>
+        <script src="<?= base_url('assets/sb-scrolling-nav/js/scripts.js');?>"></script>
         <?= $scripts;?>
     </body>
 </html>
